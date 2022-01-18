@@ -1,0 +1,27 @@
+1. The main feature of my project will allow 
+me to keep track of subscribers for a business.
+This will include a database with what subscription they
+are subscribed to, and their name, phone number, and email
+
+2. I will need to crEate the following
+GET: This will pull up any subscribers for each subscription available 
+(I think I will have to create different GET requests in order to have different
+URL endpoints for different subsciptions such as subsciptions/wine or subsciptions/beer 
+or subsciptions/taco)
+POST: This will create a new subscriber and add their information
+PUT/PATCH: This will edit a subscriber adding a new subscription if they sign
+up for another subscription in addition to their current subscription, 
+or change their email or phone
+
+This will all need JSON requests in order to function.
+
+I will not do a Delete request so we always have information and we could
+try and get them to resubscribe by sending them emails in the future.
+
+
+3. This database would be called subscriptions
+
+table 1: subscribers - This would include all subscibers information
+table 2: subscriptions - This table shows a list of subscriptions
+
+See ER Diagram for more info.
